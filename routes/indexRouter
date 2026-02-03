@@ -22,6 +22,7 @@ indexRouter.get('/', (req, res) => {
     })
 })
 
+<<<<<<< HEAD
 indexRouter.get('/new', (req, res) => {
     res.render('form')
 })
@@ -35,4 +36,6 @@ indexRouter.post('/new', (req, res) => {
     res.redirect('/')
 })
 
+=======
+>>>>>>> 68a1b4ff41fd16980e3e95058d1fc5278e6a3d44
 module.exports = indexRouter
